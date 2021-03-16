@@ -1,10 +1,17 @@
 package com.example.swipingcards.activities;
 
-public class Matches {
-    public String userOne, userTwo;
+public class Match {
+    public String userOne, userTwo, matchId, matchTime;
 
-    public Matches(String userOne, String userTwo) {
+
+    public Match(String userOne, String userTwo, String matchId, String matchTime) {
         this.userOne = userOne;
         this.userTwo = userTwo;
+        this.matchId = matchId;
+        this.matchTime = matchTime;
+    }
+
+    public Match() {
+
     }
 }

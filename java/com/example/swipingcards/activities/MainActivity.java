@@ -1,4 +1,4 @@
-    package com.example.swipingcards.activities;
+            package com.example.swipingcards.activities;
 
     import android.os.Bundle;
     import android.widget.FrameLayout;
